@@ -38,10 +38,17 @@ int main()
 void mostrarASCII(const char inicio, const char fin)
 {
     //recibe condición de inicio y fin para ciclo for
-    char caracter; //código ASCII a mostrar
-    printf("\n ASCII\t| DECIMAL\t| HEXA\n");
+    char caracter;//código ASCII a mostrar
+    int cont=0;
     for(caracter=inicio; caracter<=fin; caracter++)
     {
-        printf(" %c\t| %d\t\t| %X\n", caracter, caracter, caracter);
+        printf(" %c | %d | %X\t", caracter, caracter, caracter);
+        cont++;
+        if(cont==4)
+        {
+            printf("\n");
+            cont=0;
+        }
     }
+    printf("\n");
 }

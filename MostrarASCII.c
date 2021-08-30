@@ -9,11 +9,7 @@ las letras minúsculas, y los números de la tabla ASCII, indicando el símbolo,
 el valor decimal y el valor hexadecimal de cada uno.
 
 Ejemplo:
-
-A | 65 | 41
-B | 66 | 42
-C | 67 | 43
-D | 68 | 44
+A | 65 | 41      B | 66 | 42        C | 67 | 43     D | 68 | 44
 E | 69 | 45
 */
 
